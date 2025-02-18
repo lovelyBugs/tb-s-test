@@ -271,8 +271,8 @@ class TaobaoSpider:
         actions.perform()
 
 if __name__ == '__main__':
-    chromedriver_path = "F:\\develop\\python\\spider\\chromedriver-win64_133\\chromedriver.exe" #改成你的chromedriver的完整路径地址
-    binary_location = "C:\\Users\Admin\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe"
+    chromedriver_path = "\\chromedriver.exe" #改成你的chromedriver的完整路径地址
+    binary_location = "\\chrome.exe"
     
     spider = TaobaoSpider(chromedriver_path, binary_location)
     spider.loginManually()
